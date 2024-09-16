@@ -1,5 +1,9 @@
-n = 13 
-m = 5
+# Taking Input
+
+n = int(input("Enter Your First number: "))
+m = int(input("Enter Your Second number: "))
+
+# Performing Arithmetic Operations
 ans1 = n + m
 print("The sum of",n,"and",m,"is",ans1 )
 ans2 = n - m
