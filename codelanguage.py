@@ -25,7 +25,7 @@ def coding(s):
           rev.reverse()
           for index in range(len(rev)):char += rev[index]
           code_word += char + " "
-    print(code_word)
+    print(code_word.capitalize())
 
 def decoding(s):
 # If the word contains less than 3 characters reverse it  
@@ -47,7 +47,7 @@ def decoding(s):
           rev.reverse()
           for index in range(len(rev)):char += rev[index]
         decoded_word += char + " "
-    print(decoded_word)
+    print(decoded_word.capitalize())
 
 # Taking Input
 operations = ("Coding","Decoding")
