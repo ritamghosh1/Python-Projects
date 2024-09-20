@@ -54,12 +54,12 @@ operations = ("Coding","Decoding")
 print("These are the possible operations")
 for operation in operations: print(operation,sep=" ")
 op = input("Chosse your operation : ")
-if op=="coding" or op=="Coding": 
+if op.lower()=="coding": 
  # Coding
     sent = input("Enter the statement you want to \" ENCODE \" : ")
     coding(sent.lower())
  
-elif op=="decoding" or op=="Decoding": 
+elif op.lower() == "decoding": 
  # Decoding
     code = input("Enter the code you want to \" DECODE \" : ")
     decoding(code.lower())
