@@ -23,9 +23,9 @@ class Library :
 
 l1 = Library()
 l1.add_books("Harry Potter")
-
+l1.add_books("To Kill a Mockingbird")
+l1.add_books("1984")
 l1.print_books()
-l1.remove_books("John")
 
         
 
